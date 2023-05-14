@@ -8,6 +8,10 @@ public class StringsMethods {
 		String s1 = "Hello";
 		String s2 = "Hello";
 		String s3 = "This is example sentence";
+
+		//returns the character of specified index
+		System.out.println("charAt(): " + s2.charAt(3));
+
 		//compareTo() returns 0 in case of same strings
 		System.out.println("compareTo(): " + s1.compareTo(s2));
 
